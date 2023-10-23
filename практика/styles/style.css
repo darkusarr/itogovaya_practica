@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/1232.jpg);
+}
+.header{
+    height: 60px;
+    background-color: rgba(55, 58, 57,0.5);
+
+}
+.footer{
+    height: 60px;
+    background-color: rgba(55, 58, 57,0.5);
+
+}
+.menu{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    margin-right: 35%;
+    
+}
+.li{
+    display: inline;
+    float: right;
+    margin-right:40px;
+    margin-top: 20px;
+    font-size: large;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: rgb(146, 157, 204);
+    cursor: pointer;
+    font-size: larger;
+    transition: 0.5s;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img1{
+    height: 650px;
+    width: 500px;
+    padding-left: 15%;
+    padding-right: 1%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+.name{
+    font-size: 40px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.info2{
+    padding-top: 12%;
+    float: left;
+}
+.ocupation{
+    font-size: 30px;
+    padding-top: 1%;
+}
+.ul1{
+    font-size: 20px;
+    float: left;
+    
+}
+.ul2{
+    font-size: 20px;
+    float: left;
+}
